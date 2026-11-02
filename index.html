@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Refuerzos · Year 1 of Bachillerato</title>
+<meta name="description" content="Mathematics I and Biology, Geology and Environmental Sciences for Year 1 of Bachillerato: theory with step-by-step worked examples, cards and quizzes, following the Basque curriculum.">
+<meta name="theme-color" content="#f0ece3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141519" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="media/icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="media/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Philosophy">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,900;1,9..144,600;1,9..144,900&display=swap">
+<link rel="stylesheet" href="css/bundle.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Refuerzos · Year 1 of Bachillerato">
+<meta property="og:description" content="Mathematics I and Biology, Geology and Environmental Sciences for Year 1 of Bachillerato: theory with step-by-step worked examples, cards and quizzes, following the Basque curriculum.">
+<meta property="og:image" content="https://mikagiuri.github.io/refuerzos-web-en/media/icons/icon-512.png">
+<!-- (07-10) og:url, canonical, og:image y twitter:* absolutos: el build (tools/seo_lib.js) los reescribe con la URL de cada web publicada -->
+<meta property="og:url" content="https://mikagiuri.github.io/refuerzos-web-en/">
+<meta property="og:site_name" content="Refuerzos">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Refuerzos · Year 1 of Bachillerato">
+<meta name="twitter:description" content="Mathematics I and Biology, Geology and Environmental Sciences for Year 1 of Bachillerato: theory with step-by-step worked examples, cards and quizzes, following the Basque curriculum.">
+<meta name="twitter:image" content="https://mikagiuri.github.io/refuerzos-web-en/media/icons/icon-512.png">
+<link rel="canonical" href="https://mikagiuri.github.io/refuerzos-web-en/">
+</head>
+<body>
+
+<a class="skiplink" href="#contenido">Skip to content</a>
+<header class="bar">
+  <div class="wrap bar-in">
+    <a class="brand" href="#mat"><span class="owl" aria-hidden="true">🦉</span> Refuerzos</a>
+    <nav class="tabs" id="tabs" aria-label="Sections">
+      <button data-view="mat" aria-current="true">Mathematics I</button><button data-view="bio">Biology</button><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Study</span><div class="navmenu"><button data-view="teoria">Theory</button><button data-view="tarjetas">Cards</button></div></div><div class="navsec"><span class="navgroup" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false">Practise</span><div class="navmenu"><button data-view="cuestionarios">Quizzes</button><button data-view="retos">Challenge</button></div></div>
+    </nav>
+    <button class="navtoggle" id="navtoggle" aria-label="Open sections menu" aria-expanded="false">☰</button>
+    <button class="theme" id="helpbtn" title="How to use the website" aria-label="How to use the website">?</button>
+    <details class="langmenu" id="langmenu"><summary class="theme langbtn" title="Language" aria-label="Language">🌐</summary><div class="langlist"><a href="https://mikagiuri.github.io/refuerzos-web/" hreflang="es" lang="es" onclick="this.href=this.href.split('#')[0]+location.hash">Castellano</a><a href="https://mikagiuri.github.io/refuerzos-web-en/" hreflang="en" lang="en" aria-current="true" onclick="this.href=this.href.split('#')[0]+location.hash">English</a></div></details>
+    <button class="theme" id="theme" title="Switch light/dark mode" aria-label="Switch light/dark mode">◐</button>
+    <button class="theme" id="a11ybtn" title="Reading: listen, font and spacing" aria-label="Reading: listen, font and spacing" aria-expanded="false" aria-controls="a11ypanel">Aa</button>
+  </div>
+</header>
+<!-- DUA (P1, P2 y P7, 24-10): panel «Aa» (js/accesibilidad.js, js/escuchar.js, css/accesibilidad.css). Flota: no desplaza nada. -->
+<div class="a11y-panel" id="a11ypanel" role="dialog" aria-labelledby="a11ytit" hidden>
+  <p class="a11y-tit" id="a11ytit">Reading settings</p>
+  <button type="button" class="a11y-escuchar" id="a11yescuchar">▶ Listen to this page</button>
+  <p class="a11y-aviso" id="a11yaviso" role="status" hidden></p>
+  <fieldset>
+    <legend>Text size</legend>
+    <div class="a11y-seg" data-a11y="tam">
+      <button type="button" data-v="90" aria-label="Smaller text">A−</button>
+      <button type="button" data-v="100" aria-label="Normal text">A</button>
+      <button type="button" data-v="125" aria-label="Larger text">A+</button>
+      <button type="button" data-v="150" aria-label="Much larger text">A++</button>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Line spacing</legend>
+    <div class="a11y-seg" data-a11y="lh">
+      <button type="button" data-v="normal">Normal</button>
+      <button type="button" data-v="amplio">Wide</button>
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Letter and word spacing</legend>
+    <div class="a11y-seg" data-a11y="esp">
+      <button type="button" data-v="normal">Normal</button>
+      <button type="button" data-v="amplio">Wide</button>
+    </div>
+  </fieldset>
+  <label class="a11y-fila"><span>Typeface</span>
+    <select id="a11yfuente">
+      <option value="web">The website’s own</option>
+      <option value="atkinson">Atkinson Hyperlegible</option>
+      <option value="sistema">The system’s own</option>
+      <option value="opendyslexic">OpenDyslexic (personal preference)</option>
+    </select>
+  </label>
+  <p class="a11y-nota" id="a11ynotaod" hidden>Some people find OpenDyslexic more comfortable, but there is no evidence that it helps people read better.</p>
+  <label class="a11y-chk"><input type="checkbox" data-a11y="izq"> <span>Align text to the left</span></label>
+  <label class="a11y-chk"><input type="checkbox" data-a11y="contraste"> <span>More contrast</span></label>
+  <label class="a11y-chk"><input type="checkbox" data-a11y="mov"> <span>Reduce motion</span></label>
+  <label class="a11y-chk"><input type="checkbox" data-a11y="dicc"> <span>Dictionary definitions in the text</span></label>
+  <button type="button" class="a11y-reset" id="a11yreset">Reset</button>
+  <p class="a11y-pie">Settings are saved on this device only.</p>
+</div>
+<div class="a11y-bar" id="a11ybar" role="region" aria-label="Reading aloud" hidden>
+  <button type="button" id="a11ypausa" aria-label="Pause">⏸</button>
+  <button type="button" id="a11ysig" aria-label="Next paragraph">⏭</button>
+  <select id="a11yvel" aria-label="Speed">
+    <option value="0.8">0.8×</option>
+    <option value="1" selected>1×</option>
+    <option value="1.25">1.25×</option>
+  </select>
+  <button type="button" id="a11yparar" aria-label="Stop">■</button>
+</div>
+
+<main class="wrap" id="contenido">
+  <section class="view" id="guia"></section><section class="view" id="mat"></section><section class="view" id="bio"></section>
+  <section class="view" id="teoria">
+    <div class="filterbar" id="theoryfilter" role="group" aria-label="Filter topics"></div>
+    <div class="chips" id="theorychips" role="group" aria-label="Choose topic"></div>
+    <div class="theory-layout">
+      <nav class="toc" id="toc" aria-label="Topic index"></nav>
+      <article class="theory" id="theorybody"></article>
+    </div>
+  </section>
+  <section class="view" id="tarjetas">
+    <p class="eyebrow">Tool</p>
+    <h1 class="title">Cards</h1>
+    <p class="lead">Revision with cards: click the card (or press the space bar) to turn it over. Mark the ones you have mastered; your progress is saved in this browser.</p>
+    <div class="filterbar" id="deckfilter" role="group" aria-label="Filter decks"></div>
+    <div class="chips" id="deckchips" role="group" aria-label="Choose deck"></div>
+    <div class="fc-stage">
+      <div class="fc-meta"><span id="deckname"></span><span class="count" id="fccount"></span></div>
+      <button class="card" id="card" aria-label="Card: click to flip">
+        <div class="card-inner" id="cardinner">
+          <div class="face front">
+            <span class="side">Front</span>
+            <div class="emoji" id="fcemoji" aria-hidden="true"></div>
+            <div class="front-t" id="fcfront"></div>
+            <div class="hint">Click to see the answer</div>
+          </div>
+          <div class="face back">
+            <span class="side">Back</span>
+            <div class="back-t" id="fcback"></div>
+          </div>
+        </div>
+      </button>
+      <div class="progress"><i id="fcprog"></i></div>
+      <div class="fc-ctrl">
+        <button class="icon-btn" id="fcprev" aria-label="Previous">‹</button>
+        <button class="known-btn" id="fcknown">I know it</button>
+        <button class="icon-btn" id="fcshuf" aria-label="Shuffle" title="Shuffle">⇄</button>
+        <button class="icon-btn" id="fcnext" aria-label="Next">›</button>
+      </div>
+    </div>
+    <div id="itin-tarjetas"></div>
+  </section>
+  <section class="view" id="cuestionarios">
+    <p class="eyebrow">Tool</p>
+    <h1 class="title">Quizzes</h1>
+    <p class="lead">Self-assessment with instant marking and an explanation of each answer. Your best score is saved in this browser.</p>
+    <div class="filterbar" id="quizfilter" role="group" aria-label="Filter quizzes"></div>
+    <div class="chips" id="quizchips" role="group" aria-label="Choose quiz"></div>
+    <div class="quiz" id="quizbox"></div>
+    <div id="itin-quiz"></div>
+  </section>
+
+  <section class="view" id="retos">
+    <p class="eyebrow">Tool</p>
+    <h1 class="title">Challenges</h1>
+    <p class="lead">Revise by playing: against the clock, with points for speed and streaks. Your best score is saved in this browser.</p>
+    <div id="retosbox"></div>
+  </section>
+  <section class="view" id="mapa">
+    <p class="eyebrow">Guidance</p>
+    <h1 class="title">Site map</h1>
+    <p class="lead">Everything on this website, in the same order as the menu, plus the topics in each subject. Click any name to go there.</p>
+    <div id="mapabox"></div>
+  </section>
+
+  <section class="view" id="fuentes">
+    <p class="eyebrow">Notice</p>
+    <h1 class="title">Sources and notice</h1>
+    <p class="lead">All the material is our own work, except for the quotations and extracts from classic works, which are reproduced verbatim with their author and work indicated. They are used on a non-profit basis and solely for educational and informative purposes.</p>
+    <article class="theory">
+      <h2>Curriculum and content</h2>
+      <ul>
+        <li>The syllabus for Mathematics I and for Biology, Geology and Environmental Sciences follows the core knowledge (<em>saberes básicos</em>) of <a href="https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2023/07/2303570a.pdf" target="_blank" rel="noopener">Decreto 76/2023 of 30 May, establishing the Bachillerato curriculum in the Basque Autonomous Community</a> (BOPV no. 109, 9 June 2023; Annex II corrected in BOPV no. 140, 24 July 2023) and of Real Decreto 243/2022 of 5 April.</li>
+        <li>Theory, worked examples, cards and quizzes: our own work. No text from textbooks is reproduced. The numerical answers have been checked by computer.</li>
+        <li>Formulae drawn with <a href="https://katex.org/" target="_blank" rel="noopener">KaTeX</a> (MIT licence).</li>
+      </ul>
+    </article>
+  </section>
+</main>
+<footer class="wrap sitefoot"><a href="#mapa">Site map</a> · <a href="#fuentes">Sources and notice</a> · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">CC BY-NC-SA 4.0</a><span class="sitefoot-ver" translate="no"></span></footer>
+<script>/* Versión publicada en el pie, leída de sw.js (VERSION), para no tener que cambiarla a mano (17-10-2026) */
+(function(){var s=document.querySelector(".sitefoot-ver");if(!s||!window.fetch)return;fetch("sw.js",{cache:"no-cache"}).then(function(r){return r.ok?r.text():"";}).then(function(t){var m=/VERSION\s*=\s*"(v\d+)/.exec(t);if(m)s.textContent=" · "+m[1];}).catch(function(){});})();</script>
+
+<script src="js/store.js"></script>
+<script src="js/accesibilidad.js"></script>
+<script src="js/escuchar.js"></script>
+<script src="js/data.js"></script>
+<script src="js/flashcards.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/retosview.js"></script>
+<script src="js/theory.js"></script>
+<script src="js/refuerzos_graficas.js"></script>
+<script src="js/theoryview.js"></script>
+<script>window.markmap = { autoLoader: { manual: true } };</script>
+<script src="js/mobile.js"></script>
+<script src="js/app.js"></script>
+<script src="js/navctx.js"></script>
+<script src="js/progreso.js"></script>
+<script src="js/search.js"></script>
+<script src="js/resume.js"></script>
+<script src="js/itinerario.js"></script>
+<script src="js/compacto.js"></script>
+<script src="js/nav_toc.js"></script>
+<script src="js/refuerzos_guia.js"></script>
+<script src="js/ejercicios.js"></script>
+<script>
+  /* PWA: registra el service worker (offline + instalable). Falla en silencio
+     en contextos sin SW (p. ej. la copia descargable de un solo archivo). */
+  if ("serviceWorker" in navigator) {
+    addEventListener("load", function(){
+      navigator.serviceWorker.register("sw.js", { scope: "./" }).catch(function(){});
+    });
+  }
+</script>
+</body>
+</html>
